@@ -1,0 +1,29 @@
+{
+	"name": "azure-com-markdown-tools",
+	"displayName": "azure.com markdown tools",
+	"description": "Bits to help with markdown.",
+	"version": "0.0.1",
+	"publisher": "bennage",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.sayHello"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [{
+			"command": "extension.sayHello",
+			"title": "Hello World"
+		}]
+	},
+	"devDependencies": {
+		"vscode": "0.10.x"
+	},
+    "jshint": {
+        "esversion": 6
+    }
+}
